@@ -173,7 +173,6 @@ span.highlight {
   overflow: hidden;
   margin: 0px;
   position: fixed;
-  width:100% ;
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
 }
