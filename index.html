@@ -1,330 +1,350 @@
-
 <!DOCTYPE HTML>
 <html lang="en">
-  <head><meta name="google-site-verification" content="wYokbisW02WRgHviG0RA60YHPoIJGgDmuNf7jx-mN5E"/>
-
+<head>
+  <meta name="google-site-verification" content="wYokbisW02WRgHviG0RA60YHPoIJGgDmuNf7jx-mN5E"/>
   <title>Atula Tejaswi</title>
-  
   <meta name="author" content="Jon Barron">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png" href="files/me.jpeg">
 
-  <script>
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      margin: 0;
+      padding: 0;
     }
-  }
-  </script> 
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+    p {
+      text-align: justify;
+    }
+    .center {
+      text-align: center;
+    }
+    .publication-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .publication-item {
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #eee;
+    }
+    a {
+      color: brown;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
 
+    img.profile {
+      display: block;
+      margin: 0 auto;
+      width: 150px; /* Slightly larger size while maintaining original proportions */
+      height: auto; /* Maintain aspect ratio */
+      float: right; /* Float to the right of the text */
+      margin-left: 20px; /* Space between image and text */
+    }
+
+    /* Mobile-friendly adjustments */
+    @media screen and (max-width: 600px) {
+      .container {
+        padding: 0 10px;
+      }
+      h1, h2 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 14px;
+      }
+      .publication-item {
+        font-size: 14px;
+      }
+    }
+
+    .papertitle a {
+        color: brown;
+        text-decoration: none;
+        transition: text-decoration 0.3s ease;
+    }
+
+    .papertitle a:hover {
+        text-decoration: underline;
+    }
+
+  </style>
 </head>
 
 <body>
-  <div id="myTopnav" class="topnav">
-    <a href="#about">About</a>
-    <a href="#interests">Interests</a>
-    <a href="#publications">Publications</a>
-    <a href="files/CV_Atula_Jan2024.pdf">CV</a>
-    <!--a href="#">Contact</a>-->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i></a>
+
+  <!-- About Section -->
+  <div class="container" id="about">
+    <h1>Atula Tejaswi</h1>
+    <img src="files/me.jpeg" alt="Atula Tejaswi" class="profile">
+    <p>
+      I am a Graduate Student studying Master's in Computer Science at The University of Texas at Austin, advised by 
+      <a target="_blank" href="https://eunsol.github.io">Prof. Eunsol Choi</a> and <a target="_blank" href="https://sites.utexas.edu/sanghavi/">Prof. Sujay Sanghavi</a>. 
+      I received my Bachelor's Degree in CS from Manipal Institute of Technology. 
+      I have interned at the Indian Institute of Science, Bangalore advised by
+      <a target="_blank" href="https://ece.iisc.ac.in/~aditya/">Prof. Aditya Gopalan</a> and also at 
+      ETH Zurich with <a target="_blank" href="https://www.mrinmaya.io/">Prof. Mrinmaya Sachan's</a> lab.
+    </p>
+    <p>
+      Previously, I was a researcher with <a target="_blank" href="https://caisa-lab.github.io/">Conversational AI and Social Analytics Lab, University of Marburg</a> led by <a target="_blank" href="https://lucieflek.github.io/">Prof. Lucie Flek</a>. 
+      In the summer of 2022, I was a <a target="_blank" href="https://www.mitacs.ca/en/programs/globalink/globalink-research-internship">Mitacs Globalink</a> research intern at 
+      <a target="_blank" href="https://uqam.ca/">University of Quebec in Montreal</a>, advised
+      <a target="_blank" href="https://www.mjmrsc.com/">Prof. Marie-Jean Meurs</a>.
+    </p>
+    <p class="center">
+      <a target="_blank" href="files/CV_Atula_Jan2024.pdf">CV</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=227xMUsAAAAJ">Google Scholar</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a target="_blank" href="https://www.semanticscholar.org/author/A.-Neerkaje/2157860264">Semantic Scholar</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a target="_blank" href="https://www.linkedin.com/in/atula-tejaswi-neerkaje-4b989b157">LinkedIn</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a target="_blank" href="https://github.com/atutej">Github</a>
+    </p>
   </div>
-  <table id="about" style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Atula Tejaswi</name>
-              </p>
-              <p>
-                I am a Graduate Student studying Master's in Computer Science at UT Austin, supervised by <a target="_blank" href="https://eunsol.github.io">Prof. Eunsol Choi</a>. I received my Bachelor's Degree in CS from Manipal Institute of Technology. 
-                I have interned at the Indian Institute of Science, Bangalore under the supervision of <a target="_blank" href="https://ece.iisc.ac.in/~aditya/">Prof. Aditya Gopalan</a> 
-                and also at ETH Zurich with <a target="_blank" href="https://www.mrinmaya.io/">Prof. Mrinmaya Sachan's</a> lab.
-              
-              </p>
-              <p>
-                Previously, I was a researcher with <a target="_blank" href="https://caisa-lab.github.io/"> Conversational AI and Social Analytics Lab, University of Marburg</a> led by <a target="_blank" href="https://lucieflek.github.io/">Prof. Lucie Flek</a>. In the summer of 2022, I was a <a target="_blank" href ="https://www.mitacs.ca/en/programs/globalink/globalink-research-internship"> Mitacs Globalink </a> research intern at <a target="_blank" href ="https://uqam.ca/"> Université du Québec à Montréal</a>, supervised by <a target="_blank" href ="https://www.mjmrsc.com/"> Prof. Marie-Jean Meurs</a>. I was also an undergraduate researcher at <a target="_blank" href="https://www.projectmanas.in/">Project MANAS</a>, the official AI and Robotics team of Manipal Institute of Technology.
-              </p>
-              <p style="text-align:center">
-                <!--a target="_blank" href="files/Atula_CV_Sep22.pdf">CV</a> &nbsp/&nbsp-->
-                <a target="_blank" href="mailto:atulatejaswi@gmail.com">Email</a> &nbsp/&nbsp
-                <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=227xMUsAAAAJ">Google Scholar</a> &nbsp/&nbsp
-                <a target="_blank" href="https://www.semanticscholar.org/author/A.-Neerkaje/2157860264">Semantic Scholar</a> &nbsp/&nbsp
-                <a target="_blank" href="https://www.linkedin.com/in/atula-tejaswi-neerkaje-4b989b157">LinkedIn</a> &nbsp/&nbsp
-                <a target="_blank" href="https://github.com/atutej">Github</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/files/me.jpeg"><img style="width:100%;max-width:100%" alt="profile photo" src="files/me.jpeg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
 
+  <!-- Research Interests Section -->
+  <div class="container" id="interests">
+    <h2>Research Interests</h2>
+    <p>
+      My general interests are in Deep Learning and Natural Language Processing. Currently, I am working on Retriever models.
+    </p>
+    <p>
+      On the application side, I have previously worked on a broad range of domains including Computational Social Science, Multimodal Learning, and Privacy-Preserving Deep Learning.
+    </p>
+  </div>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding-inline:20px;width:100%;vertical-align:middle">
-              <heading id="interests">Research Interests</heading>
-              <p>
-                My general interests are all things Deep Learning, Natural Language Processing, and Reinforcement Learning. I am interested in building models that are efficient, can generalize better, and adapt to new scenarios through a higher level understanding of their environment. Currently I am working on efficient domain adaptation of LLMs.
-              </p>
-              <p>
-                In the application side, I am interested in a broad range of domains including Computational Social Science, Multimodal Learning, and Privacy Preserving Deep Learning. I have been fortunate to contribute to a wide range of research directions, and my work in these areas has been published at venues such as ACL, AISTATS, EMNLP, and ACM SIGIR.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+  <!-- Publications Section -->
+  <div class="container" id="publications">
+    <h2>Papers</h2>
+    <small><small>* indicates joint first authors</small></small>
+    <ul class="publication-list">
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://arxiv.org/abs/2406.14670" style="color:brown; text-decoration: none;">
+                    <u>Exploring Design Choices for Building Language-Specific LLMs</u>
+                </a>
+            </papertitle>
+            <br>
+            <strong>Atula Tejaswi</strong>*, Nilesh Gupta*, Eunsol Choi
+            <br>
+            <em>EMNLP 2024 (Findings)</em>
+            <br>
+            <a target="_blank" href="https://github.com/atutej/token-language-adaptation">Code</a>
+        </li>
+        
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://arxiv.org/abs/2405.19597" style="color:brown; text-decoration: none;">
+                    <u>SVFT: Parameter-Efficient Fine-Tuning with Singular Vectors</u>
+                </a>
+            </papertitle>
+            <br>
+            Vijay Lingam*, <strong>Atula Tejaswi</strong>*, Aditya Vavre*, Aneesh Shetty*, Gautham Krishna Gudur*, Joydeep Ghosh, Alex Dimakis, Eunsol Choi, Aleksandar Bojchevski, Sujay Sanghavi
+            <br>
+            <em>NeurIPS 2024</em>
+            <br>
+            <a target="_blank" href="https://github.com/VijayLingam95/SVFT">Code</a>
+        </li>
 
-        <table style="width:100%;border:0px;border-spacing:20px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://arxiv.org/abs/2203.02745" style="color:brown; text-decoration: none;">
+                    <u>The Impact of Differential Privacy on Group Disparity Mitigation</u>
+                </a>
+            </papertitle>
+            <br>
+            Victor Petrén Bach Hansen*, 
+            <strong>Atula Tejaswi*</strong>, 
+            Ramit Sawhney, 
+            Lucie Flek, 
+            Anders Søgaard
+            <br>
+            <em>NAACL 2024 (Findings)</em>  
+            <br>
+            <a target="_blank" href="https://github.com/vpetren/fair_dp/">Code</a>
+        </li>
 
-          <tr>
-            <td style="padding-inline:0px;vertical-align:middle">
-              <heading id="publications">Publications</heading>
-              <br>
-              <small><small>* indicates joint first authors</small></small>
-              <br>
-            </td>
-          </tr>
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://aclanthology.org/2024.lrec-main.1232" style="color:brown; text-decoration: none;">
+                    <u>RISE: Robust Early-exiting Internal Classifiers for Suicide Risk Evaluation</u>
+                </a>
+            </papertitle>
+            <br>
+            Ritesh Soun, <strong>Atula Tejaswi</strong>, Ramit Sawhney, Nikolaos Aletras, Preslav Nakov
+            <br>
+            <em>LREC COLING 2024</em>
+            <br>
+        </li>
+        
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://aclanthology.org/2024.lrec-main.1244" style="color:brown; text-decoration: none;">
+                    <u>Saliency-Aware Interpolative Augmentation for Multimodal Financial Prediction</u>
+                </a>
+            </papertitle>
+            <br>
+            Samyak Jain*, Parth Chhabra*, <strong>Atula Tejaswi</strong>*, Puneet Mathur, Ramit Sawhney, Shivam Agarwal, Preslav Nakov, Sudheer Chava, Dinesh Manocha
+            <br>
+            <em>LREC COLING 2024</em>
+            <br>
+        </li>
+        
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://openreview.net/forum?id=IA8CWtNkUr#discussion" style="color:brown; text-decoration: none;">
+                    <u>Early Weight Averaging meets High Learning Rates for LLM Pre-training</u>
+                </a>
+            </papertitle>
+            <br>
+            Sunny Sanyal*, <strong>Atula Tejaswi</strong>*, Jean Kaddour, Abhishek Kumar, Sujay Sanghavi
+            <br>
+            <em>COLM 2024</em>
+            <br>
+            <a target="_blank" href="https://github.com/sanyalsunny111/Early_Weight_Avg">Code</a>
+        </li>
 
-          <tr >
-            <td style="padding-inline:30px;width:10%;vertical-align:middle">
-              <div class="one">
-                
-                <img src='files/sigir2023.png' height="160" width="180">
-              </div>
-              
-            </td>
-            <td style="padding-inline:20px;width:75%;vertical-align:middle">
-                <papertitle style="color:brown;">Learning Through Interpolative Augmentation of Dynamic Curvature Spaces</papertitle>
-              <br>
-              Parth Chhabra*,
-              <strong>Atula Tejaswi*</strong>
-              Shivam Agarwal,
-              Ramit Sawhney,
-              Megh Thakkar,
-              Preslav Nakov,
-              Sudheer Chava
-              <br>
-              <em>International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2023)</em>  
-              <br>
-              <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3539618.3592008">Paper</a>
-              <p></p>
-            </td>
-          </tr> 
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3539618.3592008" style="color:brown; text-decoration: none;">
+                    <u>Learning Through Interpolative Augmentation of Dynamic Curvature Spaces</u>
+                </a>
+            </papertitle>
+            <br>
+            Parth Chhabra*, <strong>Atula Tejaswi*</strong>, Shivam Agarwal, Ramit Sawhney, Megh Thakkar, Preslav Nakov, Sudheer Chava
+            <br>
+            <em>SIGIR 2023</em>
+            <br>
+            <a target="_blank" href="https://github.com/gtfintechlab/shmix">Code</a>
+        </li>
+        
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://arxiv.org/abs/2209.02022" style="color:brown; text-decoration: none;">
+                    <u>How Much User Context Do We Need? Privacy by Design in Mental Health NLP Applications</u>
+                </a>
+            </papertitle>
+            <br>
+            Ramit Sawhney*, <strong>Atula Tejaswi*</strong>, Ivan Habernal, Lucie Flek
+            <br>
+            <em>ICWSM 2023</em>
+            <br>
+        </li>
+        
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://aclanthology.org/2022.findings-emnlp.471/" style="color:brown; text-decoration: none;">
+                    <u>Tweet Based Reach Aware Temporal Attention Network for NFT Valuation</u>
+                </a>
+            </papertitle>
+            <br>
+            Ramit Sawhney, Megh Thakkar, Ritesh Soun, <strong>Atula Tejaswi</strong>, Vasu Sharma, Dipanwita Guhathakurta, Sudheer Chava
+            <br>
+            <em>EMNLP 2022 (Findings)</em>
+            <br>
+            <a target="_blank" href="https://github.com/soun-research/TBRT-NFT-valuation">Code</a>
+        </li>
 
-          <tr >
-            <td style="padding-inline:30px;width:10%;vertical-align:middle">
-              <div class="one">
-                
-                <img src='files/icwsm2023.png' height="160" width="180">
-              </div>
-              
-            </td>
-            <td style="padding-inline:20px;width:75%;vertical-align:middle">
-                <papertitle style="color:brown;">How Much User Context Do We Need? Privacy by Design in Mental Health NLP Applications</papertitle>
-              <br>
-              Ramit Sawhney*,
-              <strong>Atula Tejaswi*</strong>
-              Ivan Habernal,
-              Lucie Flek
-              <br>
-              <em>The International AAAI Conference on Web and Social Media (ICWSM 2023)</em>  
-              <br>
-              <a target="_blank" href="https://arxiv.org/abs/2209.02022">Paper</a>
-              <p></p>
-            </td>
-          </tr> 
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3503161.3548380" style="color:brown; text-decoration: none;">
+                    <u>MONOPOLY: Financial Prediction from MONetary POLicY Conference Videos Using Multimodal Cues</u>
+                </a>
+            </papertitle>
+            <br>
+            Puneet Mathur, 
+            <strong>Atula Tejaswi</strong>, 
+            Malika Chhibber, 
+            Ramit Sawhney, 
+            Fu-Ming Guo, 
+            Franck Dernoncourt, 
+            Sanghamitra Dutta, 
+            Dinesh Manocha
+            <br>
+            <em>ACM Multimedia 2022</em>  
+            <br>
+            <a target="_blank" href="https://github.com/monopoly-monitory-policy-calls/MONOPOLY">Code</a>
+        </li>
+    
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3477495.3532068" style="color:brown; text-decoration: none;">
+                    <u>Towards Suicide Ideation Detection Through Online Conversational Context</u>
+                </a>
+            </papertitle>
+            <br>
+            Ramit Sawhney*, 
+            Shivam Agarwal*, 
+            <strong>Atula Tejaswi*</strong>, 
+            Nikolaos Aletras, 
+            Preslav Nakov, 
+            Lucie Flek
+            <br>
+            <em>SIGIR 2022</em>  
+            <br>
+            <a target="_blank" href="https://github.com/caisa-lab/hcn-sigir">Code</a>
+        </li>
+    
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://proceedings.mlr.press/v151/sawhney22a.html" style="color:brown; text-decoration: none;">
+                    <u>Orthogonal Multi-Manifold Enriching of Directed Networks</u>
+                </a>
+            </papertitle>
+            <br>
+            Ramit Sawhney*, 
+            Shivam Agarwal*, 
+            <strong>Atula Tejaswi*</strong>, 
+            Kapil Pathak*
+            <br>
+            <em>AISTATS 2022</em>  
+            <br>
+            <a target="_blank" href="https://github.com/atutej/MRIL">Code</a>
+        </li>
+    
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://aclanthology.org/2022.acl-short.70/" style="color:brown; text-decoration: none;">
+                    <u>A Risk-Averse Mechanism for Suicidality Assessment on Social Media</u>
+                </a>
+            </papertitle>
+            <br>
+            Ramit Sawhney*, 
+            <strong>Atula Tejaswi*</strong>, 
+            Manas Gaur
+            <br>
+            <em>ACL 2022</em>  
+            <br>
+        </li>
+    
+        <li class="publication-item">
+            <papertitle style="color:brown;">
+                <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/9747531/" style="color:brown; text-decoration: none;">
+                    <u>Intermix: An Interference-Based Data Augmentation and Regularization Technique for Automatic Deep Sound Classification</u>
+                </a>
+            </papertitle>
+            <br>
+            Ramit Sawhney, 
+            <strong>Atula Tejaswi</strong>
+            <br>
+            <em>ICASSP 2022</em>  
+            <br>
+            <a target="_blank" href="https://github.com/scaleracademy/InterMix-ICASSP">Code</a>
+        </li>
+    </ul>
+</div>
 
-          <tr >
-            <td style="padding-inline:0px;width:25%;vertical-align:middle">
-              <div class="one">
-                
-                <img src='files/emnlp2022.png' width="240" height="160">
-              </div>
-              
-            </td>
-            <td style="padding-inline:20px;width:75%;vertical-align:middle">
-                <papertitle style="color:brown;">Tweet Based Reach Aware Temporal Attention Network for NFT Valuation</papertitle>
-              <br>
-              Ramit Sawhney,
-              Megh Thakkar,
-              Ritesh Soun, 
-              <strong>Atula Tejaswi</strong>,
-              Vasu Sharma,
-              Dipanwita Guhathakurta,
-              Sudheer Chava
-              <br>
-              <em>EMNLP 2022 (Findings)</em>  
-              <br>
-              <a target="_blank" href="https://aclanthology.org/2022.findings-emnlp.471/">Paper</a> /
-              <a target="_blank" href="https://github.com/sounritesh/TA-NFT">Code</a>
-              <p></p>
-            </td>
-          </tr> 
-          <br>
-          <tr >
-            <td style="padding-inline:0px;width:25%;vertical-align:middle">
-              <div class="one">
-                
-                <img src='files/acmmm2022.png' width="240" height="160">
-              </div>
-              
-            </td>
-            <td style="padding-inline:20px;width:75%;vertical-align:middle">
-                <papertitle style="color:brown;">MONOPOLY: Financial Prediction from MONetary POLicY Conference Videos Using Multimodal Cues </papertitle>
-              <br>
-              Puneet Mathur, 
-              <strong>Atula Tejaswi</strong>,
-              Malika Chhibber, 
-              Ramit Sawhney, 
-              Fu-Ming Guo, 
-              Franck Dernoncourt, 
-              Sanghamitra Dutta, 
-              Dinesh Manocha
-              <br>
-              <em>ACM Multimedia 2022</em>  
-              <br>
-              <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3503161.3548380">Paper</a> /
-              <a target="_blank" href="https://github.com/monopoly-monitory-policy-calls/MONOPOLY">Code</a>
-              <p></p>
-            </td>
-          </tr> 
-
-
-          <tr >
-            <td style="padding-inline:0px;width:25%;vertical-align:middle">
-              <div class="one">
-                
-                <img src='files/sigir2022.png' width="240" height="160">
-              </div>
-              
-            </td>
-            <td style="padding-inline:20px;width:75%;vertical-align:middle">
-                <papertitle style="color:brown;">Towards Suicide Ideation Detection Through Online Conversational Context</papertitle>
-              <br>
-              Ramit Sawhney*,
-              Shivam Agarwal*,
-              <strong>Atula Tejaswi*</strong>, 
-              Nikolaos Aletras,
-              Preslav Nakov,
-              Lucie Flek
-              <br>
-              <em>International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2022)</em>  
-              <br>
-              <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3477495.3532068">Paper</a> /
-              <a target="_blank" href="https://github.com/caisa-lab/hcn-sigir">Code</a>
-              <p></p>
-            </td>
-          </tr> 
-
-          <tr >
-            <td style="padding-inline:0px;width:25%;vertical-align:middle">
-              <div class="one">
-                
-                <img src='files/aistats2022.png' width="240" height="160">
-              </div>
-              
-            </td>
-            <td style="padding-inline:20px;width:75%;vertical-align:middle">
-                <papertitle style="color:brown;">Orthogonal Multi-Manifold Enriching of Directed Networks</papertitle>
-              <br>
-              Ramit Sawhney*,
-              Shivam Agarwal*,
-              <strong>Atula Tejaswi*</strong>, 
-              Kapil Pathak*
-              <br>
-              <em>International Conference on Artificial Intelligence and Statistics (AISTATS 2022)</em>  
-              <br>
-              <a target="_blank" href="https://proceedings.mlr.press/v151/sawhney22a.html">Paper</a> /
-              <a target="_blank" href="https://github.com/atutej/MRIL">Code</a>
-              <p></p>
-            </td>
-          </tr> 
-
-          <tr >
-            <td style="padding-inline:15px;width:25%;vertical-align:middle">
-              <div class="one">
-                
-                <img src='files/acl2022.png' width="200" height="160">
-              </div>
-              
-            </td>
-            <td style="padding-inline:20px;width:75%;vertical-align:middle;">
-                <papertitle style="color:brown;">A Risk-Averse Mechanism for Suicidality Assessment on Social Media</papertitle>
-              <br>
-              Ramit Sawhney*,
-              <strong>Atula Tejaswi*</strong>,
-              Manas Gaur
-              <br>
-              <em>Association for Computational Linguistics 2022 (ACL 2022)</em>  
-              <br>
-              <a target="_blank" href="https://aclanthology.org/2022.acl-short.70/">Paper</a>
-              <p></p>
-            </td>
-          </tr> 
-
-          <tr >
-            <td style="padding-inline:15px;width:25%;vertical-align:middle">
-              <div class="one">
-                
-                <img src='files/privatenlp2022.png' width="200" height="160">
-              </div>
-              
-            </td>
-            <td style="padding-inline:20px;width:75%;vertical-align:middle">
-                <papertitle style="color:brown;">The Impact of Differential Privacy on Group Disparity Mitigation</papertitle>
-              <br>
-              Victor Petrén Bach Hansen*, 
-              <strong>Atula Tejaswi*</strong> 
-              Ramit Sawhney, 
-              Lucie Flek, 
-              Anders Søgaard
-              <br>
-              <em>PrivateNLP Workshop, NAACL 2022</em>  
-              <br>
-              <a target="_blank" href="https://arxiv.org/abs/2203.02745">Paper</a> /
-              <a target="_blank" href="https://github.com/vpetren/fair_dp/">Code</a>
-              <p></p>
-            </td>
-          </tr> 
-
-          <tr >
-            <td style="padding-inline:0px;width:25%;vertical-align:middle">
-              <div class="one">
-                
-                <img src='files/icassp2022.png' width="230" height="130">
-              </div>
-              
-            </td>
-            <td style="padding-inline:20px;width:75%;vertical-align:middle">
-                <papertitle style="color:brown;">Intermix: An Interference-Based Data Augmentation and Regularization Technique for Automatic Deep Sound Classification</papertitle>
-              <br>
-              Ramit Sawhney,
-              <strong>Atula Tejaswi</strong>
-              <br>
-              <em>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2022)</em>  
-              <br>
-              <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/9747531/">Paper</a> /
-              <a target="_blank" href="https://github.com/scaleracademy/InterMix-ICASSP">Code</a>
-              <p></p>
-            </td>
-          </tr> 
-
-        </tbody></table>
-      <small>Template from <a href="https://jonbarron.info/">Jon Barron's</a> website</small>
-      </td>
-      
-  
-      <!script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=lU4mDgE2QrXIkOMzeXrspb-5m4W2nJ0GbEIXF3MmVOE"><!/script>
-  
-</body>
-
-</html>
