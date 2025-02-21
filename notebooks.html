@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Colab Notebooks</title>
+  <meta name="author" content="Atula Tejaswi">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="files/me.jpeg">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 15px auto;
+      padding: 0 15px;
+    }
+    h1, h2 {
+      color: #333;
+      margin-bottom: 12px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 22px;
+    }
+    .notebook-list {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 15px;
+    }
+    .notebook-item {
+      margin-bottom: 15px;
+      padding: 12px;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .notebook-title {
+      margin-top: 0;
+      margin-bottom: 8px;
+      color: brown;
+      font-size: 16px;
+    }
+    .notebook-description {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    .notebook-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+    .tag {
+      background-color: #e0e0e0;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-size: 11px;
+    }
+    .notebook-link {
+      display: inline-block;
+      background-color: brown;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 3px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      font-size: 12px;
+    }
+    .notebook-link:hover {
+      background-color: #8b0000;
+      text-decoration: none;
+    }
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 15px;
+      color: brown;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+    p {
+      font-size: 14px;
+      margin: 8px 0;
+    }
+    
+    /* Mobile-friendly adjustments */
+    @media screen and (max-width: 600px) {
+      .container {
+        padding: 0 8px;
+      }
+      h1 {
+        font-size: 20px;
+      }
+      .notebook-title {
+        font-size: 15px;
+      }
+      .notebook-item {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="container">
+    <h1>Colab Notebooks</h1>
+    
+    <p>This page contains a collection of colab notebooks related to retrieval, supervised fine-tuning, etc.</p>
+    
+    <ul class="notebook-list">
+      <li class="notebook-item">
+        <h3 class="notebook-title">Retrieval/Search</h3>
+        <div class="notebook-tags">
+          <span class="tag">Information Retrieval</span>
+          <span class="tag">LLMs</span>
+          <span class="tag">RAG</span>
+        </div>
+        <p class="notebook-description">
+          This notebook demonstrates various dense and sparse search methods for information retrieval.
+        </p>
+        <a href="https://colab.research.google.com/drive/1SMIPlilFGm-xNfZTKEcEilHDCM2yiRQF" target="_blank" class="notebook-link">Open in Colab</a>
+      </li>
+      
+      <li class="notebook-item">
+        <h3 class="notebook-title">Pneumonia Prediction</h3>
+        <div class="notebook-tags">
+          <span class="tag">CNNs</span>
+          <span class="tag">ViTs</span>
+          <span class="tag">Vision Models</span>
+        </div>
+        <p class="notebook-description">
+          Training vision architectures (CNNs, ViTs) on a pneumonia prediction task from X-ray images.
+        </p>
+        <a href="https://colab.research.google.com/drive/1nCutkdYQR-1gR5ChpArVLw77ErGi1LA9" target="_blank" class="notebook-link">Open in Colab</a>
+      </li>
+      
+      <li class="notebook-item">
+        <h3 class="notebook-title">Supervised Fine-Tuning (SFT)</h3>
+        <div class="notebook-tags">
+          <span class="tag">LLMs</span>
+          <span class="tag">Fine-Tuning</span>
+          <span class="tag">Domain Adaptation</span>
+        </div>
+        <p class="notebook-description">
+          This notebook provides a demonstration of fine-tuning a GPT-2 model on Shakespeare-like text using SFT.
+        </p>
+        <a href="https://colab.research.google.com/drive/1FWUVj-28frySPAH6_vy2_9D8Ua67DFsK" target="_blank" class="notebook-link">Open in Colab</a>
+      </li>
+      
+      <!-- Early Weight Averaging -->
+      <li class="notebook-item">
+        <h3 class="notebook-title">Distillation</h3>
+        <div class="notebook-tags">
+          <span class="tag">LLMs</span>
+          <span class="tag">Fine-Tuning</span>
+          <span class="tag">Synthetic Data</span>
+        </div>
+        <p class="notebook-description">
+          Distilling synthetically generated data of a 7B model into GPT-2 on an alignment dataset. 
+        </p>
+        <a href="https://colab.research.google.com/drive/1GPcQqiAegr-73d4Qa5GsigEsf1TgZghh" target="_blank" class="notebook-link">Open in Colab</a>
+      </li>
+    </ul>
+    
+    <a href="index.html" class="back-link">Back to Homepage</a>
+  </div>
+</body>
+</html>
